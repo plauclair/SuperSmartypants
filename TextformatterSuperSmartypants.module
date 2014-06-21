@@ -25,7 +25,7 @@ class TextformatterSuperSmartypants extends Textformatter {
 		return array(
 			'title' => 'SuperSmartyPants Typographer', 
 			'version' => 100,
-			'summary' => "Super Smartypants is a drop-in replacement for Smartypants core which adds language support and fine-tuned support for each language. Requires language module.",
+			'summary' => "Super Smartypants is a drop-in replacement for Smartypants core which adds language support and fine-tuned configuration for each language. Requires language module.",
 			'url' => 'https://github.com/plauclair/SuperSmartypants',
 		); 
 	}
