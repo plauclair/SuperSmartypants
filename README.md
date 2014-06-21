@@ -33,11 +33,11 @@ c &#8658; comma quotes (,,double`` only)
 
 g &#8658; guillemets (\<\<double\>\> only)
 
-d &#8658; dashes
+d &#8658; dashes ("--" for em-dashes; no en-dash support)
 
-D &#8658; old school dashes
+D &#8658; old school dashes ("---" for em-dashes; "--" for en-dashes)
 
-i &#8658; inverted old school dashes
+i &#8658; inverted old school dashes ("--" for em-dashes; "---" for en-dashes)
 
 e &#8658; ellipses
 
