@@ -7,57 +7,55 @@ After installation, add /site/modules/TextformatterSuperSmartypants/smartypants.
 
 To enable Super Smartypants for a language, set the Smartypants attributes field to 1, otherwise to disable leave the field empty.
 
-#Smartypants Typographer parser available attribures 
+#Smartypants Typographer parser available attributes 
 
 leave empty : do nothing
 
-1 : set all, except dash spacing
+1 &#8658; set all, except dash spacing
 
-2 : set all, except dash spacing, using old school en- and em- dash shortcuts
+2 &#8658; except dash spacing, using old school en- and em- dash shortcuts
 
-3 : set all, except dash spacing, using inverted old school en and em- dash shortcuts
+3 &#8658; except dash spacing, using inverted old school en and em- dash shortcuts
 
 ##Punctuation:
 
-q -> quotes
+q &#8658; quotes
 
-b -> backtick quotes (\`\`double'' only)
+b &#8658; backtick quotes (\`\`double'' only)
 
-B -> backtick quotes (\`\`double'' and \`single')
+B &#8658; backtick quotes (\`\`double'' and \`single')
 
-c -> comma quotes (,,double`` only)
+c &#8658; comma quotes (,,double`` only)
 
-g -> guillemets (\<\<double\>\> only)
+g &#8658; guillemets (\<\<double\>\> only)
 
-d -> dashes
+d &#8658; dashes
 
-D -> old school dashes
+D &#8658; old school dashes
 
-i -> inverted old school dashes
+i &#8658; inverted old school dashes
 
-e -> ellipses
-
-w -> convert \&quot; entities to "
+e &#8658; ellipses
 
 ## Spacing:
 
-: -> colon spacing +-
+You can add a plus sign after some of these options denoted by + to add the space when it is not already present, or you can add a minus sign to completly remove any space present. All of those are disabled by default. For example, use :+ to add spacing before colons, and inversely :- to remove them.
 
-; -> semicolon spacing +-
+: &#8658; colon spacing (optional additional + or -)
 
-m -> question and exclamation marks spacing +-
+; &#8658; semicolon spacing (optional additional + or -)
 
-h -> em-dash spacing +-
+m &#8658; question and exclamation marks spacing (optional additional + or -)
 
-H -> en-dash spacing +-
+h &#8658; em-dash spacing (optional additional + or -)
 
-f -> french quote spacing +-
+H &#8658; en-dash spacing (optional additional + or -)
 
-t -> thousand separator spacing -
+f &#8658; french quote spacing (optional additional + or -)
 
-u -> unit spacing +-
+t &#8658; thousand separator spacing (optional additional -
 
-(you can add a plus sign after some of these options denoted by + to add the space when it is not already present, or you can add a minus sign to completly remove any space present)
+u &#8658; unit spacing (optional additional + or -)
 
 **License**
 
