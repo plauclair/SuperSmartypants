@@ -1,13 +1,15 @@
-Super Smartypants module documentation
+# Super Smartypants module documentation
 Super Smartypants is a ProcessWire textformatter module which adds support for languages. It also allows you to set the different Smartypants Typographer parser attributes to customize which rules apply.
 
-#Usage
+## Usage
 
 After installation, add /site/modules/TextformatterSuperSmartypants/smartypants.php to your language translations.
 
-To enable Super Smartypants for a language, set the Smartypants attributes field to 1, otherwise to disable leave the field empty.
+To enable Super Smartypants for a language, set the Smartypants attributes field to 1 (or see below for details), otherwise to disable leave the field empty.
 
-#Smartypants Typographer parser available attributes 
+## Smartypants Typographer parser available attributes 
+
+These attributes can be inserted in the Smartypants attributes field. Note that attributes 1, 2, 3, do not mix with individual settings (you cannot do 1:+ for example).
 
 leave empty : do nothing
 
@@ -17,7 +19,7 @@ leave empty : do nothing
 
 3 &#8658; except dash spacing, using inverted old school en and em- dash shortcuts
 
-##Punctuation:
+### Punctuation:
 
 q &#8658; quotes
 
@@ -37,9 +39,9 @@ i &#8658; inverted old school dashes
 
 e &#8658; ellipses
 
-## Spacing:
+### Spacing:
 
-You can add a plus sign after some of these options denoted by + to add the space when it is not already present, or you can add a minus sign to completly remove any space present. All of those are disabled by default. For example, use :+ to add spacing before colons, and inversely :- to remove them.
+You can add a plus sign after some of these options denoted by + to add the space when it is not already present, or you can add a minus sign to completly remove any space present. For example, use :+ to add spacing before colons, and inversely :- to remove them.
 
 : &#8658; colon spacing (optional additional + or -)
 
@@ -53,9 +55,26 @@ H &#8658; en-dash spacing (optional additional + or -)
 
 f &#8658; french quote spacing (optional additional + or -)
 
-t &#8658; thousand separator spacing (optional additional -
+t &#8658; thousand separator spacing (optional additional -_
 
 u &#8658; unit spacing (optional additional + or -)
+
+## A typographer's HTML character entities cheatsheet
+
+### Spaces
+
+\&#32; &#8658; Regular (breaking) space
+
+\&#160; &#8658; Non-breaking space
+
+\&laquo; (&laquo;) &#8658; Left-pointing double guillemets
+
+\&raquo; (&raquo;) &#8658; Right-pointing double guillemets
+
+\&lsaquo; (&#8249;) &#8658; Left-pointing single guillemets
+
+\&rsaquo; (&#8250;) &#8658; Right-pointing single guillemets
+
 
 **License**
 
