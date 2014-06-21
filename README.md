@@ -1,5 +1,5 @@
 # Super Smartypants module documentation
-Super Smartypants is a ProcessWire textformatter module which adds support for languages. It also allows you to set the different Smartypants Typographer parser attributes to customize which rules apply.
+Super Smartypants is a ProcessWire textformatter module which adds support for languages. It also allows you to set the different Smartypants Typographer parser attributes to customize which rules apply and fixes some bugs.
 
 ## Usage
 
@@ -7,9 +7,11 @@ After installation, add /site/modules/TextformatterSuperSmartypants/smartypants.
 
 To enable Super Smartypants for a language, set the Smartypants attributes field to 1 (or see below for details), otherwise to disable leave the field empty.
 
+Change default strings according to your masterful typographic knowledge.
+
 ## Smartypants Typographer parser available attributes 
 
-These attributes can be inserted in the Smartypants attributes field. Note that attributes 1, 2, 3, do not mix with individual settings (you cannot do 1:+ for example).
+These attributes can be inserted in the Smartypants attributes field. Note that attributes 1, 2, 3 do not mix with individual settings (you cannot do 1:+ for example). This is a limitation from the original Smartypants code, there is no plan to improve this right now.
 
 leave empty : do nothing
 
@@ -55,7 +57,7 @@ H &#8658; en-dash spacing (optional additional + or -)
 
 f &#8658; french quote spacing (optional additional + or -)
 
-t &#8658; thousand separator spacing (optional additional -_
+t &#8658; thousand separator spacing (optional additional -) Note that this doesn't add spaces when there are none, it only converts them
 
 u &#8658; unit spacing (optional additional + or -)
 
@@ -65,7 +67,24 @@ u &#8658; unit spacing (optional additional + or -)
 
 \&#32; &#8658; Regular (breaking) space
 
-\&#160; &#8658; Non-breaking space
+\&nbsp; &#8658; Non-breaking space
+
+\&ensp; &#8658; En space
+
+\&emsp; &#8658; Em space
+
+\&#8196; &#8658; Three-per-em space
+
+\&#8197; &#8658; Four-per-em space
+
+\&thinsp; &#8658; Thin space
+
+\&#8239; &#8658; Narrow no-break space
+
+\&#8202; &#8658; Hair space
+
+
+### Characters
 
 \&laquo; (&laquo;) &#8658; Left-pointing double guillemets
 
