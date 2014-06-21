@@ -21,7 +21,7 @@ leave empty : do nothing
 
 3 &#8658; except dash spacing, using inverted old school en and em- dash shortcuts
 
-### Punctuation:
+### Punctuation
 
 q &#8658; quotes
 
@@ -41,7 +41,7 @@ i &#8658; inverted old school dashes
 
 e &#8658; ellipses
 
-### Spacing:
+### Spacing
 
 You can add a plus sign after some of these options denoted by + to add the space when it is not already present, or you can add a minus sign to completly remove any space present. For example, use :+ to add spacing before colons, and inversely :- to remove them.
 
