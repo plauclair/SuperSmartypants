@@ -21,13 +21,13 @@ leave empty : do nothing
 
 q -> quotes
 
-b -> backtick quotes (``double'' only)
+b -> backtick quotes (\`\`double'' only)
 
-B -> backtick quotes (``double'' and `single')
+B -> backtick quotes (\`\`double'' and \`single')
 
 c -> comma quotes (,,double`` only)
 
-g -> guillemets (<<double>> only)
+g -> guillemets (\<\<double\>\> only)
 
 d -> dashes
 
@@ -37,7 +37,7 @@ i -> inverted old school dashes
 
 e -> ellipses
 
-w -> convert &quot; entities to "
+w -> convert \&quot; entities to "
 
 ## Spacing:
 
