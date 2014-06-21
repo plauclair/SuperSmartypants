@@ -18,7 +18,7 @@ define( 'SMARTYPANTS_VERSION',            "1.5.1oo2" ); # Unreleased
 define( 'SMARTYPANTSTYPOGRAPHER_VERSION', "1.0"      ); # Wed 28 Jun 2006
 
 # Attribute override from PW language
-define( 'OVERRIDE', __('leave empty to disable, enter 1 for default settings')); // Smartypants attributes, please refer to documentation
+define( 'OVERRIDE', __('leave empty to disable, enter 1 for default settings')); // Smartypants attributes, please refer to documentation at https:&#47;&#47;github.com&#47;plauclair&#47;SuperSmartypants
 
 #
 # Default configuration:
