@@ -9,33 +9,55 @@ To enable Super Smartypants for a language, set the Smartypants attributes field
 
 #Smartypants Typographer parser available attribures 
 
-``leave empty : do nothing
-``1 : set all, except dash spacing
-``2 : set all, except dash spacing, using old school en- and em- dash shortcuts
-``3 : set all, except dash spacing, using inverted old school en and em- dash shortcuts
+leave empty : do nothing
 
-``##Punctuation:
-``q -> quotes
-``b -> backtick quotes (``double'' only)
-``B -> backtick quotes (``double'' and `single')
-``c -> comma quotes (,,double`` only)
-``g -> guillemets (<<double>> only)
-``d -> dashes
-``D -> old school dashes
-``i -> inverted old school dashes
-``e -> ellipses
-``w -> convert &quot; entities to "
+1 : set all, except dash spacing
 
-``## Spacing:
-``: -> colon spacing +-
-``; -> semicolon spacing +-
-``m -> question and exclamation marks spacing +-
-``h -> em-dash spacing +-
-``H -> en-dash spacing +-
-``f -> french quote spacing +-
-``t -> thousand separator spacing -
-``u -> unit spacing +-
-  (you can add a plus sign after some of these options denoted by + to add the space when it is not already present, or you can add a minus sign to completly remove any space present)
+2 : set all, except dash spacing, using old school en- and em- dash shortcuts
+
+3 : set all, except dash spacing, using inverted old school en and em- dash shortcuts
+
+##Punctuation:
+
+q -> quotes
+
+b -> backtick quotes (``double'' only)
+
+B -> backtick quotes (``double'' and `single')
+
+c -> comma quotes (,,double`` only)
+
+g -> guillemets (<<double>> only)
+
+d -> dashes
+
+D -> old school dashes
+
+i -> inverted old school dashes
+
+e -> ellipses
+
+w -> convert &quot; entities to "
+
+## Spacing:
+
+: -> colon spacing +-
+
+; -> semicolon spacing +-
+
+m -> question and exclamation marks spacing +-
+
+h -> em-dash spacing +-
+
+H -> en-dash spacing +-
+
+f -> french quote spacing +-
+
+t -> thousand separator spacing -
+
+u -> unit spacing +-
+
+(you can add a plus sign after some of these options denoted by + to add the space when it is not already present, or you can add a minus sign to completly remove any space present)
 
 **License**
 
