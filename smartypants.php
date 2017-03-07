@@ -166,7 +166,7 @@ class SmartyPants_Parser {
 	var $do_stupefy   = 0;
 	var $convert_quot = 0; # should we translate &quot; entities into normal quotes?
 
-	function SmartyPants_Parser($attr = SMARTYPANTS_ATTR) {
+	function __construct($attr = SMARTYPANTS_ATTR) {
 	#
 	# Initialize a SmartyPants_Parser with certain attributes.
 	#
@@ -636,7 +636,7 @@ class SmartyPantsTypographer_Parser extends SmartyPants_Parser {
 
 	
 
-	function SmartyPantsTypographer_Parser($attr = SMARTYPANTS_ATTR) {
+	function __construct($attr = SMARTYPANTS_ATTR) {
 	#
 	# Initialize a SmartyPantsTypographer_Parser with certain attributes.
 	#
@@ -680,7 +680,7 @@ class SmartyPantsTypographer_Parser extends SmartyPants_Parser {
 		}
 
 		# Initialize inherited SmartyPants parser.
-		parent::SmartyPants_Parser($attr);
+		parent::__construct($attr);
 				
 		if ($attr == "1" || $attr == "2" || $attr == "3") {
 			# Do everything, turn all options on.
